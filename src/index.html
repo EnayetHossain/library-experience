@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="desktop-max">
+            <!-- navigation for desktop and mobile-->
+            <nav class="navigation">
+                <div class="mobile-menu-container">
+                    <ul class="menu-header">
+                        <li class="menu-item"><i class="fa-solid fa-magnifying-glass"></i></li>
+                        <li class="menu-item"><i class="fa-solid fa-x"></i></li>
+                    </ul>
+
+                    <ul class="mobile-menu">
+                        <li class="mobile-menu-item"><a href="#">home</a></li>
+                        <li class="mobile-menu-item"><a href="#">about</a></li>
+                        <li class="mobile-menu-item"><a href="#">projects</a></li>
+                        <li class="mobile-menu-item"><a href="#">contact us</a></li>
+                        <li class="mobile-menu-item"><a href="#">library</a></li>
+                    </ul>
+                </div>
+
+                <ul class="main-menu">
+                    <li class="menu-item"><a href="#">home</a></li>
+                    <li class="menu-item"><a href="#">about</a></li>
+                    <li class="menu-item"><a href="#">projects</a></li>
+                    <li class="menu-item"><a href="#">contact us</a></li>
+                    <li class="menu-item"><a href="#">library</a></li>
+                </ul>
+
+                <div class="ham-bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <ul class="social-menu">
+                    <li class="social-item"><i class="fa-solid fa-user-large"></i></li>
+                    <li class="social-item"><i class="fa-solid fa-bag-shopping"></i></li>
+                    <li class="social-item"><i class="fa-solid fa-magnifying-glass"></i></li>
+                </ul>
+            </nav>
+
+            <div class="banner-section">
+                <h1 class="title">library<br>experience</h1>
+            </div>
+
+        </div>
+
+        <div class="image-reveal">
+            <svg class="svg-path" width="0" height="0" viewBox="0 0 557 868" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <clipPath id="clip" data-svg-origin="278.156494140625 434"
+                    style="translate: none; rotate: none; scale: none; transform-origin: center center;">
+                    <path fill-rule="evenodd" clip-rule="evenodd" clipPathUnits="objectBoundingBox"
+                        d="M0 277.64C0 124.304 124.535 0 278.156 0C431.778 0 556.313 124.304 556.313 277.64V868H0V277.64Z"
+                        fill="#7A3434">
+                    </path>
+                </clipPath>
+            </svg>
+
+            <picture class="image-holder">
+                <img id="scroll-img" alt="library">
+            </picture>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="discover-product-section">
+            <p class="discover-product-title">Discover our products</p>
+            <p class="discover-product-description">
+                A large selection of comic strip posters, figurines, head prints and our own<br> production of screen
+                prints!
+            </p>
+            <button class="btn">
+                <div>
+                    <span>Go to the store</span>
+                    <span>Go to the store</span>
+                </div>
+            </button>
+        </section>
+    </main>
+</body>
+
+</html>
