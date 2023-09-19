@@ -209,7 +209,7 @@ ul:last-child {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 3em 0;
+    padding: 8em 0;
     color: rgb(var(--secondary-color));
 }
 
@@ -237,6 +237,7 @@ ul:last-child {
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    transition: background-color 0.3s;
 }
 
 .btn>div {
@@ -258,19 +259,11 @@ ul:last-child {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    transition: 0.7s ease;
 }
+
 
 .btn span:first-child {
-    top: 150%;
-}
-
-.btn:hover>div span:first-child {
-    top: 50%;
-}
-
-.btn:hover>div span:last-child {
-    top: -60%;
+    top: 200%;
 }
 
 @media only screen and (max-width: 900px) {
